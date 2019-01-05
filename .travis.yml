@@ -1,0 +1,8 @@
+language: node_js
+deploy:
+  provider: heroku
+  api_key:
+    secure: sGOxUjMWmlZtOKqvwK//MWL0CsCpkaKjHrtNDMD5HNYe9qPDlgSdzELNZYRXVw5ZJhTEGqG+IOZ9Zm/0UmckcD/zWD8M/GjnztrRgUiaP5EmX+QwZSUNoydKNDJcYA0ujVCgAVRMqJiVZo0BoK3kuDD7oz62qzvggtYOVexIraDQ2NJRoWAQtpre1VotJj6xjOhyxT8txxKgjTgQ9ZrXXDEmRHmnfzkajR4I6R4TvK010eobDz7ZmyOS2u680BBFTnU9u+K3jUypgiX00bk9gOGX4CbfNyTSf/YMcmjnuTAIJLOiQx1Y1n5JIm5Zsjosnq9clukdrMSztsiNqFNtVi1ID8NHEb0Tj89uwRicadyYLdQjiDf7Ox5Wy+F4AWInXvu2pZ0X/C38U1Vqfd/tNhegGuaF5pXum0W9Jinwz+pIByYkNn3h4M6vV5xHr5nhjlemXx/xRK4JlGUb+oc0cbgdaIwLxdhydv1jaw8a+k9ajI5OdpvCJqCxsEcspn7uynDd7EC9caK5/uMNK3rSOYHlw7JOmNAhV0MZSH4QYqo1ps8vmPnL38d+djm5blshKDMUxDpxOVVqyWPSyc08W66XasEIMHIzF0/a8++S8gAfm122NyoWXzcgrmA+ti2i6h7/tJA24MYcIMDmSbAYoFBrX7uRuUmE74ID/eXf3Ps=
+  app: arcane-tundra-97392
+  on:
+    repo: cymruhangu/project-timer-app
